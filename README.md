@@ -1,2 +1,5 @@
-# Projeto numero impar ou par e primo
- Projeto dedicado a mostrar se o número aplicado é impar ou par e também se faz parte da sequência de números primos.
+# Projeto - Número impar ou par / Número primo ou não.
+
+ Este projeto foi meu primeiro trabalho com C#. Dedicado aos meus colegas de equipe em minha empresa.
+
+ Este projeto consiste em mostrar se o número inserido é impar ou par e se ele é um número primo ou não, projeto simples mas com muita dedicação.
