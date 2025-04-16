@@ -2,7 +2,6 @@ using System;
 
 class Program
 {
-    //Referência aos números primos e não primos
     static bool Primos(int numero)
     {
         if (numero <= 1) return false;
@@ -17,32 +16,33 @@ class Program
     }
     static void Main()
     {
+        while (true)
+        {
         try
         {
             Console.Write("Digite um número: ");
             string entrada = Console.ReadLine() ?? "";
             if (int.TryParse(entrada, out int numero))
             {
-                //Números impares e pares
                 if (numero % 2 == 0)
-                    Console.WriteLine($"{numero} é Par.");
+                    Console.WriteLine($"{numero} é um número Par.");
                 else
-                    Console.WriteLine($"{numero} é Ímpar.");
+                    Console.WriteLine($"{numero} é um número Ímpar.");
 
-                //Números primos e não primos
                 if (Primos(numero))
-                    Console.WriteLine($"{numero} é Primo.");
+                    Console.WriteLine($"{numero} é um número Primo.");
                 else
-                    Console.WriteLine($"{numero} não é Primo.");
+                    Console.WriteLine($"{numero} não é número Primo.");
             }
             else
             {
-                Console.WriteLine("Valor inválido. Por favor, digite um número!");
+                Console.WriteLine("Ops, carácter inválido. Por favor, digite um número!");
             }
+        }
         }
         catch (Exception)
         {
-            Console.WriteLine("Ocorrreu um erro inesperado!");
+            Console.WriteLine("Ops. Ocorreu um erro inesperado, tente novamente!");
         }
         Console.ReadKey();
     }
