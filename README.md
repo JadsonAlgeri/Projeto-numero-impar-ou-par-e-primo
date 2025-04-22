@@ -1,4 +1,4 @@
-# Projeto - Número impar ou par / Número primo ou não.
+# Projeto - número impar ou par / número primo ou não.
 
  Este projeto foi meu primeiro trabalho com C#. Dedicado aos meus colegas de equipe em minha empresa.
 
