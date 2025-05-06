@@ -1,5 +1,4 @@
-# Projeto - número impar ou par / número primo ou não.
+# Project - even or odd number / prime or not.
 
- Este projeto foi meu primeiro trabalho com C#. Dedicado aos meus colegas de equipe em minha empresa.
-
- Este projeto consiste em mostrar se o número inserido é impar ou par e se ele é um número primo ou não, projeto simples mas com muita dedicação.
+This project was my first work with C#, dedicated to my teammates at my company.
+The project consists of showing whether the entered number is odd or even, and whether it is a prime number or not. A simple project, but made with a lot of dedication.
